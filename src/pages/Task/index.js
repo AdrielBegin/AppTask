@@ -50,7 +50,7 @@ export default function Task({navigation}){
                         <FontAwesome 
                         name="star" 
                         size={23} 
-                        color="#F92E6A">
+                        color="#7600a9">
                         </FontAwesome>
                  </TouchableOpacity>
                         <Text

@@ -17,21 +17,21 @@ export default function App() {
         name="Task"
         component={Task}
         options={{
-          headerTintColor:"#F92E6A"
+          headerTintColor:"#7600a9"
         }}/>
                 
         <Stack.Screen
         name="NewTask"
         component={NewTask}
         options={{
-          headerTintColor:"#F92E6A"
+          headerTintColor:"#7600a9"
         }}/>
         
         <Stack.Screen
         name="Details"
         component={Details}
         options={{
-          headerTintColor:"#F92E6A"
+          headerTintColor:"#7600a9"
         }}/>
       
       
