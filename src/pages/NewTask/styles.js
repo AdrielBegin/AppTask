@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFF',      
+        backgroundColor:'#FFF'     
     },
     
     label:{
@@ -22,6 +22,23 @@ const styles = StyleSheet.create({
     marginLeft:"auto",
     marginRight:"auto"
 
+    },
+    buttonNewTask:{
+        width:60,
+        height:60,
+        position:"absolute",
+        bottom:30,
+        left:20,
+        backgroundColor:"#F92E6A",
+        borderRadius:50,
+        justifyContent:"center",
+        alignItems:"center"
+
+    },
+    iconButton:{
+        color:"#FFFFFF",
+        fontSize:16,
+        fontWeight:"bold"
     }
 });
 
