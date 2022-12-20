@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
     
     label:{
      width:"90%",
+     padding:10,
      marginTop:20,     
      fontSize:16,
      color:"#7600a9"

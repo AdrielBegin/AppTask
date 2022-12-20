@@ -25,7 +25,7 @@ export default function NewTask({navigation}){
             <Text style={styles.label}>Description</Text>
             <TextInput
             style={styles.inputText}
-            placeholder="Ex: estudar javascript"
+            placeholder="Exemplo: estudar javascript"
             onChangeText={setDescription}
             value={description}
             />

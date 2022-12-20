@@ -25,7 +25,7 @@ export default function Details({navigation, route}){
             <Text style={styles.label}>Description</Text>
             <TextInput
             style={styles.inputText}
-            placeholder="Ex: estudar javascript"
+            placeholder="Exemplo: estudar javascript"
             onChangeText={setDescriptionEdit}
             value={descriptionEdit}
             />

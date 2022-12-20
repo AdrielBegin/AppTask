@@ -41,6 +41,7 @@ export default function Task({navigation}){
             renderItem={({item})=>{
                 return(
                 <View style={styles.Tasks}>
+                    
                  <TouchableOpacity 
                     style={styles.deleteTask}
                     onPress={()=>{                        
@@ -79,3 +80,4 @@ export default function Task({navigation}){
         </View>
     )
 }
+
