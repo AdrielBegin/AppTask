@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import styles from "../NewTask/styles";
 import database from "../../config/firebase";
 import {collection, doc, onSnapshot, query, getDoc, setDoc} from 'firebase/firestore/';
+
 import { FontAwesome5 } from '@expo/vector-icons';
 
 
