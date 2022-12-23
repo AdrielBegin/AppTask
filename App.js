@@ -6,13 +6,14 @@ import Task from './src/pages/Task'
 import NewTask from './src/pages/NewTask'
 import Details from './src/pages/Details'
 import Login from './src/pages/Login';
+import Home from './src/pages/Home'
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Task">
+      <Stack.Navigator initialRouteName="Home">
         
         <Stack.Screen
         name="Task"
@@ -38,6 +39,13 @@ export default function App() {
         <Stack.Screen
         name="Login"
         component={Login}
+        options={{
+          headerTintColor:"#7600a9"
+        }}/>
+
+        <Stack.Screen
+        name="Home"
+        component={Home}
         options={{
           headerTintColor:"#7600a9"
         }}/>

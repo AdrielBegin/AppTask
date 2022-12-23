@@ -10,10 +10,10 @@ const styles = StyleSheet.create({
 
     },
     Tasks:{
-        width:"100%",
+        width:"70%",
         flexDirection:"row",
         justifyContent:"space-between",
-        marginTop:5,
+        marginTop:1,
         
     },
     deleteTask:{

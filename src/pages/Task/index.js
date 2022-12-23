@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {View, Text,TextInput, TouchableOpacity, FlatList, ImageComponent, StyleSheet, Button} from "react-native";
-import { FontAwesome } from "@expo/vector-icons";
+import { FontAwesome,MaterialCommunityIcons,AntDesign,FontAwesome5 } from "@expo/vector-icons";
+
 
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -35,6 +36,7 @@ export default function Task({navigation}){
 
     return(
         <View style={styles.container} >
+            
           <FlatList
             showsVerticalScrollIndicator={false}
             data={task} 
@@ -48,11 +50,18 @@ export default function Task({navigation}){
                         deleteTask(item.id)
                     }
                     }>
-                        <FontAwesome 
-                        name="star" 
-                        size={23} 
-                        color="#7600a9">
-                        </FontAwesome>
+                        {/* <FontAwesome                         
+                        name="star"                                                      
+                        size={25} 
+                        color="#7600a9"/> */               
+                        <AntDesign 
+                        name="checkcircle" 
+                        size={25} 
+                        color="#7600a9" />
+                        }
+                        
+                        
+                        
                  </TouchableOpacity>
                         <Text
                         style={styles.descriptionTask}
@@ -73,7 +82,8 @@ export default function Task({navigation}){
             <TouchableOpacity 
              style={styles.buttonNewTask}
              onPress={()=> navigation.navigate("NewTask")}>
-                <Text style={styles.iconButton}>+</Text>
+                
+                <FontAwesome5 name="tasks" size={24} color="#FFF" />
             </TouchableOpacity>      
     
 
