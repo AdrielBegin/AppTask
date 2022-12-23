@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import styles from "../NewTask/styles";
 import database from "../../config/firebase";
 import {collection, doc, onSnapshot, query, getDoc, setDoc} from 'firebase/firestore/';
+import { FontAwesome5 } from '@expo/vector-icons';
 
 
 export default function NewTask({navigation}){
@@ -25,7 +26,7 @@ export default function NewTask({navigation}){
             <Text style={styles.label}>Description</Text>
             <TextInput
             style={styles.inputText}
-            placeholder="Exemplo: estudar javascript"
+            placeholder="Example: study database"
             onChangeText={setDescription}
             value={description}
             />
@@ -33,6 +34,7 @@ export default function NewTask({navigation}){
             style={styles.buttonNewTask}
             onPress={()=>{addTask()}}
             >
+                <FontAwesome5 name="save" size={24} color="white" />
                 <Text style={styles.iconButton}>Save</Text>
             </TouchableOpacity>
         </View>

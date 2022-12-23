@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
     
     label:{
      width:"90%",
-     marginTop:20,     
+     left:16,
+     marginTop:15,     
      fontSize:16,
      color:"#7600a9"
     },
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     },
     iconButton:{
         color:"#FFFFFF",
-        fontSize:16,
+        fontSize:13,
         fontWeight:"bold"
     }
 });

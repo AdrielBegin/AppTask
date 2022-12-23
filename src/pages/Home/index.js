@@ -13,7 +13,7 @@ export default function Login({navigation}){
 
     return(
         <View style={styles.container}>
-            <Text style={styles.textWelcome}>Welcome, my tasks</Text>   
+            <Text style={styles.textWelcome}>Welcome my tasks</Text>   
 
             <MaterialIcons name="emoji-objects" 
             size={50} 

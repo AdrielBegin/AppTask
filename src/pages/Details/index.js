@@ -23,7 +23,7 @@ export default function Details({navigation, route}){
 
     return(
         <View style={styles.container}>
-            <Text style={styles.label}>DESCRIPTION</Text>
+            <Text style={styles.label}>Description</Text>
             <TextInput
             style={styles.inputText}
             placeholder="Example: study database"
@@ -34,8 +34,8 @@ export default function Details({navigation, route}){
             style={styles.buttonNewTask}
             onPress={()=>{editTask(descriptionEdit,idTask)}}
             >
+                <FontAwesome5 name="save" size={24} color="white" />
                 <Text style={styles.iconButton}>Save</Text>
-                {/* <FontAwesome5 name="save" size={24} color="black" /> */}
             </TouchableOpacity>
         </View>
 
