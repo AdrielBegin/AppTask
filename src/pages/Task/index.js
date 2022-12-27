@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {View, Text,TextInput, TouchableOpacity, FlatList, ImageComponent, StyleSheet, Button} from "react-native";
-import { FontAwesome,MaterialCommunityIcons,AntDesign,FontAwesome5 } from "@expo/vector-icons";
+import { FontAwesome,MaterialCommunityIcons,AntDesign,FontAwesome5,MaterialIcons } from "@expo/vector-icons";
 
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -54,8 +54,8 @@ export default function Task({navigation}){
                         name="star"                                                      
                         size={25} 
                         color="#7600a9"/> */               
-                        <AntDesign 
-                        name="checkcircle" 
+                        <MaterialIcons 
+                        name="delete"
                         size={25} 
                         color="#7600a9" />
                         }
