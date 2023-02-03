@@ -4,7 +4,7 @@
 <i>Selecione branch master para ver o projeto</i>
 
 <h1>Esse é um APP de tarefas</h1>
-
+<p>Nessa aplicação foi abordada as operações básicas utilizadas em bases de dados relacionais fornecidas aos utilizadores do sistema, CRUD</p>
 
 <h2>Tela Inicial</h2>
 
