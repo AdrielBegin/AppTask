@@ -6,6 +6,33 @@
 <h1>Esse é um APP de tarefas</h1>
 <p>Nessa aplicação foi abordada as operações básicas utilizadas em bases de dados relacionais fornecidas aos utilizadores do sistema, CRUD</p>
 
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Versão</th>
+    </tr>
+  </thead>
+  <tbody>  
+    <tr>
+      <td>React Native</td>
+      <td>0.70.5</td>      
+    </tr>    
+    <tr>
+      <td>Expo</td>
+      <td>47.0.8</td>      
+    </tr>    
+    <tr>
+      <td>React Native Firebase</td>
+      <td>5.6.0</td>      
+    </tr>
+    <tr>
+      <td>Node</td>
+      <td>16.17.1</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>Tela Inicial</h2>
 
 ![Home](https://user-images.githubusercontent.com/95453666/216603027-0f132cc1-8dac-4654-b8fd-2b1f3ad775be.jpeg)
@@ -23,3 +50,6 @@
 <h2>Tela Delalhes e Alterar a Tarefa</h2>
 
 ![Details](https://user-images.githubusercontent.com/95453666/216603537-dab11a46-0711-4848-838d-944dae16c00c.jpeg)
+
+
+
